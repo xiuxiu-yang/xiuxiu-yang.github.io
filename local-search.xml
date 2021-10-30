@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>博客的创建</title>
+    <link href="/2021/10/29/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9B%E5%BB%BA/"/>
+    <url>/2021/10/29/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9B%E5%BB%BA/</url>
+    
+    <content type="html"><![CDATA[<p><img src="/2021/10/29/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9B%E5%BB%BA/landscape-1-16355822185611.jpg" alt="背景图片"></p><h4 id="博客的创建"><a href="#博客的创建" class="headerlink" title="博客的创建"></a>博客的创建</h4><p>​                很久以前就想做一个属于自己的博客了,可以一直没有机会,直到最近才正式开始了博客的创建。找了很多个博客的工具,最后选择了hexo来创建.创建过程也是坎坎坷坷.</p><h5 id="一、Hexo的安装前的准备"><a href="#一、Hexo的安装前的准备" class="headerlink" title="一、Hexo的安装前的准备"></a>一、Hexo的安装前的准备</h5><p>​    下载Hexo需要先下载好Node.js 和 Git，已经下载过了的小伙伴可以跳过这一部分, 如果还未下载过可以先下载Node.js，尽量选择高版本, 不容易出现问题。</p><p><a href="http://nodejs.cn/">Node官网</a> </p><p>下载以后可以通过在命令行输入：node -v 可以查看是否成功安装</p><p>​    <img src="/2021/10/29/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9B%E5%BB%BA/image-20211030162920922.png" alt="image-20211030162920922"></p><p>​    如果出现以上字符,恭喜你安装成功啦！接下来进行 Git 的安装了，也尽量选择高版本的Git。</p><p><a href="https://git-scm.com/">Git官网</a> </p><p>​    安装成功后，鼠标右键会出现 GIT GUI 和 GIT BUSH 选项，出现了说明安装成功啦!</p><h5 id="二、Hexo的安装"><a href="#二、Hexo的安装" class="headerlink" title="二、Hexo的安装"></a>二、Hexo的安装</h5><p>​    安装完Node 和 Git 后就可以开始 Hexo的安装了，下面附上Hexo的官网地址，有需要的小伙伴可以进入。</p><p>​    <a href="https://hexo.io/zh-cn/">Hexo官网</a></p><p>​    打开CMD执行以下命令即可全局安装 Hexo</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">npm install hexo -g<br></code></pre></td></tr></table></figure><p>​    安装完成后进入想创建博客的文件夹下，执行</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">hexo init<br></code></pre></td></tr></table></figure><p>​    第一次初始化时间比较久，耐心等待一下。初始化完成后安装一下依赖即可</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">npm install<br></code></pre></td></tr></table></figure><p>完成以上操作，Hexo安装算是安装完成了。可以使用了！</p><h5 id="三、Hexo的使用"><a href="#三、Hexo的使用" class="headerlink" title="三、Hexo的使用"></a>三、Hexo的使用</h5><p>​    创建一篇新的文章</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">hexo new &quot;文章名&quot;<br></code></pre></td></tr></table></figure><p>​    回车即可，在source文件夹下找到该 md 文件，进行编写即可。编写完成后使用一下命令，即可自动生成文件，启动本地服务。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs shell">hexo g<br>hexo clean<br>hexo serve<br></code></pre></td></tr></table></figure><p>​    使用浏览器访问 localhost:4000 即可查看到博客啦！</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>第一个博客</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
