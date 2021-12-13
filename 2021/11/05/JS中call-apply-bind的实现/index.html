@@ -14,7 +14,7 @@
   
   <meta name="theme-color" content="#2f4154">
   <meta name="description" content="">
-  <meta name="author" content="John Doe">
+  <meta name="author" content="coderShy">
   <meta name="keywords" content="">
   <meta name="description" content="Call、Apply、Bind的手写实现​        每个函数在创建时都会自带一些函数，其中call、apply、bind这几个函数是面试中经常会问到的函数，今天来手写这几个函数。 一、call的手写实现call的简单介绍​        函数在调用 call 函数时，可以传入多个参数，第一个参数作为函数调用时其中的this绑定对象，后面的参数都为函数执行时传入的参数。简单看一下基础的使用。">
 <meta property="og:type" content="article">
@@ -31,7 +31,7 @@
 <meta property="og:image" content="http://example.com/2021/11/05/JS%E4%B8%ADcall-apply-bind%E7%9A%84%E5%AE%9E%E7%8E%B0/image-20211108234618529.png">
 <meta property="article:published_time" content="2021-11-05T15:53:12.000Z">
 <meta property="article:modified_time" content="2021-11-08T16:01:19.801Z">
-<meta property="article:author" content="John Doe">
+<meta property="article:author" content="coderShy">
 <meta property="article:tag" content="js 面试">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="http://example.com/2021/11/05/JS%E4%B8%ADcall-apply-bind%E7%9A%84%E5%AE%9E%E7%8E%B0/image-20211106000153018.png">
@@ -152,18 +152,6 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/about/">
-                <i class="iconfont icon-user-fill"></i>
-                关于
-              </a>
-            </li>
-          
-        
-          
-          
-          
-          
-            <li class="nav-item">
               <a class="nav-link" href="/links/">
                 <i class="iconfont icon-link-fill"></i>
                 友链
@@ -201,6 +189,11 @@
 
             
               <div class="mt-3">
+  
+    <span class="post-meta mr-2">
+      <i class="iconfont icon-author" aria-hidden="true"></i>
+      coderShy
+    </span>
   
   
     <span class="post-meta">
@@ -338,6 +331,12 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/2021/11/15/CDN-%E7%9A%84%E5%8E%9F%E7%90%86/">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">CDN 的原理</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
@@ -413,6 +412,30 @@
      <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
   </div>
   
+  <div class="statistics">
+    
+    
+
+    
+      
+        <!-- 不蒜子统计PV -->
+        <span id="busuanzi_container_site_pv" style="display: none">
+            总访问量 
+            <span id="busuanzi_value_site_pv"></span>
+             次
+          </span>
+      
+      
+        <!-- 不蒜子统计UV -->
+        <span id="busuanzi_container_site_uv" style="display: none">
+            总访客数 
+            <span id="busuanzi_value_site_uv"></span>
+             人
+          </span>
+      
+    
+  </div>
+
 
   
   <!-- 备案信息 -->
@@ -497,6 +520,8 @@
   
 
 
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
 
 
 

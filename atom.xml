@@ -6,15 +6,63 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-11-08T16:01:19.801Z</updated>
+  <updated>2021-12-13T15:16:36.053Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>coderShy</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>响应式原理</title>
+    <link href="http://example.com/2021/12/13/%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86/"/>
+    <id>http://example.com/2021/12/13/%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86/</id>
+    <published>2021-12-13T15:05:25.000Z</published>
+    <updated>2021-12-13T15:16:36.053Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Vue响应式原理"><a href="#Vue响应式原理" class="headerlink" title="Vue响应式原理"></a>Vue响应式原理</h3><h4 id="响应式介绍"><a href="#响应式介绍" class="headerlink" title="响应式介绍"></a>响应式介绍</h4><h4 id="响应式手写"><a href="#响应式手写" class="headerlink" title="响应式手写"></a>响应式手写</h4>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;Vue响应式原理&quot;&gt;&lt;a href=&quot;#Vue响应式原理&quot; class=&quot;headerlink&quot; title=&quot;Vue响应式原理&quot;&gt;&lt;/a&gt;Vue响应式原理&lt;/h3&gt;&lt;h4 id=&quot;响应式介绍&quot;&gt;&lt;a href=&quot;#响应式介绍&quot; class=&quot;headerlink</summary>
+      
+    
+    
+    
+    <category term="js" scheme="http://example.com/categories/js/"/>
+    
+    
+    <category term="js 面试" scheme="http://example.com/tags/js-%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CDN 的原理</title>
+    <link href="http://example.com/2021/11/15/CDN-%E7%9A%84%E5%8E%9F%E7%90%86/"/>
+    <id>http://example.com/2021/11/15/CDN-%E7%9A%84%E5%8E%9F%E7%90%86/</id>
+    <published>2021-11-15T04:22:32.000Z</published>
+    <updated>2021-12-13T15:03:57.773Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="CDN的介绍及原理"><a href="#CDN的介绍及原理" class="headerlink" title="CDN的介绍及原理"></a>CDN的介绍及原理</h4><h5 id="一、什么是CDN"><a href="#一、什么是CDN" class="headerlink" title="一、什么是CDN"></a>一、什么是CDN</h5><p>​    CDN的全称是Content Delivery Network，即内容分发网络。CDN是构建在现有网络基础之上的智能虚拟网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN的关键技术主要有内容存储和分发技术。</p><p>​    上述片段是百度百科中对CDN的介绍，简单理解CDN就是在虚拟网络上，依靠部署在各地的服务器，当用户获取时，通过功能模块使用户就近获取到数据。</p><h5 id="二、CDN的原理"><a href="#二、CDN的原理" class="headerlink" title="二、CDN的原理"></a>二、CDN的原理</h5><p>​    CDN就是在用户和服务器之间添加了一个Cache层，当用户访问存放在CDN上的资源时，将用户的请求引导到CDN上获取源服务器存放在CDN上的数据，从而达到提高响应速度，解决用户访问量过大等问题。</p><p>​    当用户访问CDN上的资源时，首先会对域名进行一个DNS解析，解析过程中会发现已经配置了CNAME，会向CNAME域名发送请求，然后依靠CDN内部的功能模块会分配最佳节点IP，然后用户依据获取到的IP发送对资源的请求，若该IP节点中缓存了所需的资源，则直接返回，否则会向业务源站发出资源的请求，获取资源后返回给用户，同时在节点处依据用户的存储策略将资源存储在IP节点出。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;CDN的介绍及原理&quot;&gt;&lt;a href=&quot;#CDN的介绍及原理&quot; class=&quot;headerlink&quot; title=&quot;CDN的介绍及原理&quot;&gt;&lt;/a&gt;CDN的介绍及原理&lt;/h4&gt;&lt;h5 id=&quot;一、什么是CDN&quot;&gt;&lt;a href=&quot;#一、什么是CDN&quot; class=&quot;</summary>
+      
+    
+    
+    
+    <category term="js" scheme="http://example.com/categories/js/"/>
+    
+    
+    <category term="js 面试" scheme="http://example.com/tags/js-%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>JS中call_apply_bind的实现</title>
