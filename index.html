@@ -46,7 +46,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.12","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname"}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.12","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":21233917,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname"}},"search_path":"/local-search.xml"};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -206,7 +206,10 @@
         <a href="/2021/12/13/%E5%93%8D%E5%BA%94%E5%BC%8F%E5%8E%9F%E7%90%86/" target="_self">
           
           
+            
           
+          Vue响应式原理响应式介绍什么是响应式​        我个人将其理解为当我们修改某个响应式数据时，视图会自动进行一个更新，或者所有使用到的函数都会自动得到一个重新执行。
+12345678// 定义一个变量alet a = 6// 定义一个与变量a相关的 res 且其一直为 a 的平分// 我们希望当 a 改变的时候，其的值也会自动进行一个改变，我称它为响应式let res = a ** 2a =
         </a>
       </p>
 
@@ -260,7 +263,10 @@
         <a href="/2021/11/15/CDN-%E7%9A%84%E5%8E%9F%E7%90%86/" target="_self">
           
           
+            
           
+          CDN的介绍及原理一、什么是CDN​    CDN的全称是Content Delivery Network，即内容分发网络。CDN是构建在现有网络基础之上的智能虚拟网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN的关键技术主要有内容存储和分发技术。
+​    上述片段是百度百科中对CDN的
         </a>
       </p>
 
@@ -314,7 +320,11 @@
         <a href="/2021/11/05/JS%E4%B8%ADcall-apply-bind%E7%9A%84%E5%AE%9E%E7%8E%B0/" target="_self">
           
           
+            
           
+          Call、Apply、Bind的手写实现​        每个函数在创建时都会自带一些函数，其中call、apply、bind这几个函数是面试中经常会问到的函数，今天来手写这几个函数。
+一、call的手写实现call的简单介绍​        函数在调用 call 函数时，可以传入多个参数，第一个参数作为函数调用时其中的this绑定对象，后面的参数都为函数执行时传入的参数。简单看一下基础的使用。
+
         </a>
       </p>
 
@@ -368,7 +378,10 @@
         <a href="/2021/10/29/%E5%8D%9A%E5%AE%A2%E7%9A%84%E5%88%9B%E5%BB%BA/" target="_self">
           
           
+            
           
+          博客的创建​                很久以前就想做一个属于自己的博客了,可以一直没有机会,直到最近才正式开始了博客的创建。找了很多个博客的工具,最后选择了hexo来创建.创建过程也是坎坎坷坷.
+一、Hexo的安装前的准备​    下载Hexo需要先下载好Node.js 和 Git，已经下载过了的小伙伴可以跳过这一部分, 如果还未下载过可以先下载Node.js，尽量选择高版本, 不容易出现问
         </a>
       </p>
 
@@ -447,7 +460,7 @@
 
   <footer class="text-center mt-5 py-3">
   <div class="footer-content">
-     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+     <span>coderShy</span> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
   </div>
   
   <div class="statistics">
@@ -571,6 +584,22 @@
 
 
 
+
+
+  
+
+  
+
+  
+
+  
+
+  
+    <!-- 51.la Analytics -->
+    <script defer type="text/javascript" src="//js.users.51.la/21233917.js"></script>
+  
+
+  
 
 
 
